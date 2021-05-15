@@ -2,7 +2,7 @@
 
 ## What is this project about?
 
-This is a home-made weather-station built with Arduino UNO that outputs its readings to [ThingSpeak](https://thingspeak.com/).
+This is a home-made weather-station built with [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3) that outputs its readings to [ThingSpeak](https://thingspeak.com/).
 
 ## What components does it use?
 

@@ -168,7 +168,7 @@ void loop() {
     WindVelocity();
 
     // Set ThingSpeak fields with values
-    ThingSpeak.setField(1, (dhtTemperature + bmpTemperature)/2); // Temperature
+    ThingSpeak.setField(1, (dhtTemperature + bmpTemperature) / 2); // Temperature
     ThingSpeak.setField(2, dhtHumidity); // Humidity
     ThingSpeak.setField(3, bmpReadPressure); // Pressure
     ThingSpeak.setField(4, airPPM); // Air Quality
@@ -184,4 +184,6 @@ void loop() {
     else{
         Serial.println("Problem updating channel. HTTP error code " + String(responseStatusCode) + "\n");
     }
+
+    delay(30000);
 }
